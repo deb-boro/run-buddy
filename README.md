@@ -17,4 +17,6 @@ https://lernatino.github.io/run-buddy/
 
 Made with ❤️ by [Debajit Boro]
 
-### &copy 2019 Run Buddy, Inc
+### &copy &copy 2019 Run Buddy, Inc
+
+
