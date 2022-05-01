@@ -7,8 +7,8 @@ A website that offers fitness training services
 * HTML
 * CSS
 
-##Website 
+## Website 
 https://lernatino.github.io/run-buddy/
 
-##Contribution
+## Contribution
 Made with ❤️ by [Debajit Boro]
