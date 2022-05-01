@@ -1,4 +1,4 @@
-# Run Buddy Inc.
+#### Run Buddy Inc.
 
 ## Purpose
 
@@ -18,5 +18,3 @@ https://lernatino.github.io/run-buddy/
 Made with ❤️ by [Debajit Boro]
 
 ### &copy &copy 2019 Run Buddy, Inc
-
-
