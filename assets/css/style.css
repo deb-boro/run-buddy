@@ -16,6 +16,14 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-image: url(../images/hero-bg.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
 }
 
 header h1 {
@@ -23,6 +31,7 @@ header h1 {
   font-size: 36px;
   color: #fce138;
   margin: 0;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
@@ -51,6 +60,13 @@ header nav ul li a {
   padding: 10px 15px;
   font-weight: lighter;
   font-size: 1.5vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+header nav ul li a:hover {
+  background: #fce138;
+  color: #024e76;
+  border-radius: 15px;
+  text-shadow: none;
 }
 
 footer {
@@ -85,6 +101,8 @@ footer a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  background-attachment: fixed;
+  background-position: 80%;
 }
 
 .hero-cta {
@@ -94,6 +112,7 @@ footer a {
   color: #fff;
   font-size: 18px;
   line-height: 1.2;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-cta h2 {
@@ -111,6 +130,9 @@ footer a {
   border-width: 3px;
   width: 40%;
   margin: 3.5%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: #fce138;
+  border-radius: 15px;
 }
 
 h3 {
@@ -130,6 +152,13 @@ h3 {
   width: 100%;
   margin-bottom: 15px;
   color: #024e76;
+  border-radius: 10px;
+  background-color: rgba(225, 225, 225, 0.75);
+}
+
+.form-input:focus {
+  background-color: rgba(225, 225, 225, 1);
+  outline: none;
 }
 .hero-form label {
   margin: 0px 5px;
@@ -142,6 +171,10 @@ h3 {
   border: none;
   padding: 10px 20px;
   border: none;
+  border-radius: 10px;
+}
+.hero-form button:hover {
+  background-color: #39a6b2;
 }
 
 .intro p {
@@ -218,6 +251,10 @@ h3 {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+}
+
+.step:last-child {
+  border-bottom: none;
 }
 
 .trainer {
@@ -313,6 +350,14 @@ h3 {
   width: 100%;
   margin-bottom: 15px;
   margin-top: 5px;
+  border-radius: 10px;
+  background: rgba(225, 225, 225, 0.5);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  background: rgba(225, 225, 225, 1);
+  outline: none;
 }
 
 .contact-form button {
@@ -323,12 +368,19 @@ h3 {
   text-align: center;
   padding: 15px 0;
   font-size: 16px;
+  border-radius: 10px;
+}
+
+.contact-form button:hover {
+  color: #fce138;
+  background: #39a6b2;
 }
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
 @media screen and (max-width: 980px) {
   header {
     padding-bottom: 0;
     justify-content: center;
+    position: relative;
   }
 
   header h1 {
